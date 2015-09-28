@@ -1,9 +1,6 @@
 __author__ = 'cjk4wr'
 
+from helper import greeting
+
 print("hello")
-
-def greeting(msg):
-    print(msg)
-
-if __name__ == '__main__':
-    greeting('hello!')
+greeting('hello!')
